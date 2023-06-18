@@ -8,3 +8,4 @@ find_package(GLEW REQUIRED)
 
 add_subdirectory(src/ep02)
 add_subdirectory(src/ep03)
+add_subdirectory(src/ep04-vertex-buffers)
