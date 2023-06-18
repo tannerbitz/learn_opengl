@@ -22,6 +22,7 @@ class learn_openglRecipe(ConanFile):
 
     def requirements(self):
         self.requires("glfw/3.3.8")
+        self.requires("glew/2.2.0")
 
     def layout(self):
         cmake_layout(self)

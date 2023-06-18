@@ -4,5 +4,7 @@ project(learn_opengl CXX)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(glfw3 REQUIRED)
+find_package(GLEW REQUIRED)
 
 add_subdirectory(src/ep02)
+add_subdirectory(src/ep03)
